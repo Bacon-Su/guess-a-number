@@ -1,6 +1,11 @@
 import random
 
-r = random.randint(1,100)
+start = input('請輸入開始的數值:')
+end = input('請輸入結束的數值:')
+start = int(start)
+end = int(end)
+
+r = random.randint(start, end)
 print(r)
 
 count = 0
